@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+
+    background-image: url(artigo_historia_da_roleta-1.jpg);
+    
+}
+
+
+.sidebar{
+position: fixed;
+width: 60px;
+height: 100%;
+margin-top: 70px;
+padding-top: 30px;
+left: 0;
+background-color: #272b27;
+border: 1px solid #fff;
+}
+
+.btn1{
+    display: block;
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    border: #fff;
+}
+
+.sidemenu img{
+display: flex;
+width: 25px;
+height: 25px;
+padding-left: 3px;
+margin: 20%;
+margin-top: 35px;
+box-sizing: border-box;
+transition: 0.5s;
+transition-property: background;
+cursor: pointer;
+
+    
+}
+
+.btn{
+
+    
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+btn1{
+
+    width: 30px;
+    border-radius: 100px;
+    
+}
+h1{
+
+    display: flex;
+    color: #fff;
+    padding-right: 45%;
+    cursor: pointer;
+}
+
+
+
+button{
+    position: relative;
+    background-color: red;
+    color: #fff;
+    height: 40px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.input{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    border-radius: 7px;
+    
+    
+  
+    
+    
+}
+
+.input text{
+
+    width: 800px;
+    height: 500px;
+    border: 2px;
+
+    
+}
+
+img
+{
+
+    width: 30px;
+    margin: auto;
+    display: flex;
+}
+
+header{
+
+background-color: #000;
+
+}
+
+li{
+
+    list-style: none;
+
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.navbar-branding{
+font-size: 2rem;
+}
+
+.nav-link{
+    transition: 0.7s ease;
+}
+
+.nav-link:hover{
+
+    color: red;
+}
+
+.hamburger{
+
+    display:block;
+    cursor: pointer;
+    
+
+}
+
+.bar{
+
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+@media(max-width:768px){
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+
+
+/*.nav-menu{
+
+    position: fixed;
+    left: -100%;
+    top: 50px;
+    gap: 0;
+    background-color: #262626;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.nav-item{
+
+    margin: 16px;
+}
+
+.nav-menu.active{
+left: 0;
+}
+/*
+
